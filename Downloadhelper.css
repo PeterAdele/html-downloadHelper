@@ -1,0 +1,144 @@
+
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    color: #333;
+}
+p{
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+}
+.maincontentletter a:hover{
+    text-decoration: underline;
+}
+.footerletteroptions p{
+    margin: 5px;
+}
+.main {
+    height: 100vh;
+    margin-top: 0.5rem;
+    overflow-y: scroll;
+}
+.header-wrapper{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(232,232,232);
+    line-height: 40px;
+}
+#logo-64{
+    margin-left: 9.5rem; 
+    margin-top: 12.5rem;
+    
+}
+#logo-64 img{
+    height: 70px;
+    width: 70px;
+    padding: 0.2rem;
+}
+li{
+    display: inline-block;
+    flex-direction: row;
+    padding-right: 2.5rem;
+    font-weight: 650;
+    font-size: 15px;
+}
+li a{
+    text-decoration: none;
+    color: #696969;
+    letter-spacing: .025em;
+    font-weight: 800;
+}
+.header nav li a:hover{
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 10px 8px 10px;
+}
+nav{
+    height: 0.5rem;
+    margin-left: 250px;
+    margin-right: 135px;
+    margin-top: 6.5rem;  
+    justify-content: space-between;
+}
+.header{
+    height: 0.5rem;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maincontent{
+    height: 1070px;
+    width: 100%;
+}
+.kiva{
+    display: flex;
+    width: 100%;
+}
+.kivap{
+    height: 130px;
+    width: 290px;
+    background-color: #5ab05a;
+    display: flex;
+    margin-left: 6.5rem;
+}
+.kivapcontnt{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    line-height: 22.5px;
+}
+.maincontentletter{
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    margin-top: 3.5rem;
+}
+.fw900{
+    font-weight: 900;
+    font-size: 2.15rem;
+}
+.fz14rem{
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.styledparagraph{
+    font-weight: 900;
+}
+h3{
+    font-weight: 800;
+}
+.footer{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(232,232,232);
+}
+.footerletter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 9.5rem;
+    margin-right: 15.5rem;
+    padding-top: 5.5rem;
+    justify-content: space-between;
+}
+.footerletteroptions img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 0.25rem;
+}
+.lastparagraph{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+@media (max-width: 1280px) {
+    .main {
+        flex-direction: column;
+        height: 100%;
+    }
+}
